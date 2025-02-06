@@ -38,8 +38,9 @@ const RULES_V3: &str = r#"
     rule GetPhoneTypeStringOffset_v3
     {
         strings:
-            $a = "iphone\x00" ascii fullword
-            $b = "android\x00" ascii fullword
+            $a = "iphone\x00" ascii fullword nocase
+            $b = "android\x00" ascii fullword nocase
+            $c = "OHOS\x00" ascii fullword nocase
 
         condition:
             any of them

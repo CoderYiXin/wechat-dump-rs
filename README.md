@@ -94,6 +94,7 @@ wechat-dump-rs.exe -k xxxxxxxxxxxxxxxxx -f c:\users\xxxx\xxxx\contact.db -r --vv
 - 4.0.1.13
 - 4.0.1.17
 - 4.0.1.21
+- 4.0.2.17
 
 ## 库表结构
 
